@@ -20,7 +20,7 @@ section{
     font-size: 32px;
 }
 .contex > p{
-    color: #000000;
+    color: #707070;
     font-size: 24px;
     margin-top: 10px;
 }
@@ -31,7 +31,7 @@ section{
     margin: 30px 120px 0 0;
 }
 .ciudad > li{
-    color:#000000;
+    color:#707070;
 }
 .listaciudad{
     display: flex;
@@ -39,4 +39,8 @@ section{
 }
 .textgrand{
     width: 40%;
+}
+.datos > h2 {
+    font-size: 68px;
+    margin-bottom: 20px;
 }

@@ -1,0 +1,28 @@
+.secciondiv{
+    background-color: #fc8868;
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+    margin: 0;
+}
+.divisor{
+    background-color: #fc8868;
+    width: 80%;
+    height: 30vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.contador{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.contador > h2{
+    color: #ffffff;
+    font-size: 80px;
+}
+.contador > p{
+    font-size: 24px;
+}

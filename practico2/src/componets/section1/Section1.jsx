@@ -61,7 +61,7 @@ const Section1 = () => {
             </div>
             <div className='divpadre2'>
                 <div className='textgrand'>
-                    <div className='contex'>
+                    <div className='contex datos'>
                         <h2>
                             Escoge una ciudad:
                         </h2>

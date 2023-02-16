@@ -9,7 +9,7 @@ const Section3 = () => {
                         ¡Abiertos hoy!
                     </h1>
                     <p>
-                        Ten algunas recomendaciones 
+                        Ten algunas recomendaciones para el día de hoy. Nuestros expertos gourmetes escogieron algunos de los mejores lugares que abren hoy
                     </p>
                     <button>
                         Descarga nuestra app

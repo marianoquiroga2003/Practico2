@@ -1,0 +1,24 @@
+.seccion3{
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.seccion3 > div{
+    width: 80%;
+}
+.subdiv3{
+    width: 30%;
+}
+.subdiv3 > h1{
+    color:#000000;
+    font-size: 50px;
+}
+.subdiv3 > p{
+    color: #707070;
+    font-size: 24px;
+}
+.subdiv3 > button{
+    color: #ffffff;
+    margin-top: 50px;
+}

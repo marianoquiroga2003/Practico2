@@ -1,5 +1,9 @@
 import React from 'react';
 import './Section1.css'
+import image1 from '../../assets/img/Sin título-1-01.png'
+import image2 from '../../assets/img/Sin título-1-02.png'
+import image3 from '../../assets/img/Sin título-1-03.png'
+import image4 from '../../assets/img/Sin título-1-04.png'
 
 
 const Section1 = () => {
@@ -7,54 +11,54 @@ const Section1 = () => {
         <section>
             <div className='divpadre'>
                 <div className='subdiv2'>
-                    <div>
-                        <img src="" alt="" />
+                    <div className='imgdiv'>
+                        <img src={image1} alt="" />
                     </div>
                     <div className='contex'>
                         <h2>
                             Directamente a tí
                         </h2>  
                         <p>
-                            Resive tu pedido en mano en pocos minutos
+                            Entrega en mano en pocos minutos
                         </p>            
                     </div>
                 </div>
                 <div className='subdiv2'>
-                    <div>
-                        
+                    <div className='imgdiv'>
+                        <img src={image2} alt="" />
                     </div>
                     <div className='contex'>
                         <h2>
                             Pago seguro
                         </h2>
                         <p>
-                            El pago se hace a través del sitio WEB completamente seguro
+                            Alta seguridad para el pago
                         </p>            
                     </div>
                 </div>
                 <div className='subdiv2'>
-                    <div>
-                        
+                    <div className='imgdiv'>
+                        <img src={image3} alt="" />
                     </div>
                     <div className='contex'>
                         <h2>
                             Suma créditos
                         </h2>
                         <p>
-                            Obten recompensas y descuentos únicos con tu compra
+                            Obten recompensas y descuentos únicos
                         </p>             
                     </div>
                 </div>
                 <div className='subdiv2'>
-                    <div>
-                        
+                    <div className='imgdiv'>
+                        <img src={image4} alt="" />
                     </div>
                     <div className='contex'>
                         <h2>
                             A cualquier hora
                         </h2>
                         <p>
-                            Atención las 24 horas del día, los 365 días del año
+                            Atención las 24 horas del día, todos los días
                         </p>              
                     </div>
                 </div>

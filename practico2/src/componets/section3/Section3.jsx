@@ -1,10 +1,11 @@
 import React from 'react';
+import './Section3.css'
 
 const Section3 = () => {
     return(
         <section className='seccion3'>
             <div>
-                <div>
+                <div className='subdiv3'>
                     <h1>
                         ¡Abiertos hoy!
                     </h1>

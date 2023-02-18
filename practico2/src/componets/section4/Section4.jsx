@@ -12,8 +12,8 @@ const Section4 = () => {
                 </div>
                 <div>
                     <form className='mail' action="">
-                        <button><i class="bi bi-send-fill"></i></button>
-                        <input type="text" name='E-mail'/>
+                        <button className='enviarboton'><i class="bi bi-send-fill"></i></button>
+                        <input type="text" name='E-mail' placeholder='Ingresa tu email...'/>
                     </form>
                 </div>
             </div>

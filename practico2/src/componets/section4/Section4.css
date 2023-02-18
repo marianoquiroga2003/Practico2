@@ -22,7 +22,29 @@
 }
 .mail > input{
     width: 400px;
-    height: 60px;
     border: none;
     border-radius: 60px;
+    position: relative;
+    padding: 30px;
 }
+.enviarboton{
+    position: relative;
+    z-index: 1;
+    left: 475px;
+    top: 5px;
+    background-color: transparent;
+    color: #f4c651;
+    transition: .25s;
+
+}
+.enviarboton:hover{
+    box-shadow: none;
+    transform: rotate(45deg);
+}
+
+.enviarboton > i{
+    font-size: 32px;
+}
+/* .enviarboton > i:hover{
+    text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
+} */

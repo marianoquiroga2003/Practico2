@@ -17,7 +17,7 @@ const Section3 = () => {
                     </button>
                 </div>
                 <div>
-                    
+
                 </div>
             </div>
         </section>

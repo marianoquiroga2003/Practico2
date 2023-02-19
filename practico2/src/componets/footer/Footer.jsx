@@ -19,20 +19,43 @@ const Footer = () => {
         <footer>
             <div className='divpadrefooter'>
                 <div>
-                    Con gusto nos comunicaremos contigo, déjanos tu email y suscríbete a nuestro Newsletter
+                    <p>Con gusto nos comunicaremos contigo, déjanos tu email y suscríbete a nuestro Newsletter</p>
                     <form ref={form} onSubmit={sendEmail} className='mail' action="">
                         <button type="submit" value="Send" className='enviarboton'><i class="bi bi-send-fill"></i></button>
                         <input type="email" name='user_email' placeholder='Ingresa tu email...'/>
                     </form>
                 </div>
                 <div>
-
+                    <h2>
+                        ¿En qué podemos ayudarte?
+                    </h2>
+                    <ul>
+                        <li>
+                            <a href="#servicios">Nuestros servicios</a>
+                        </li>
+                        <li>
+                            <a href="#recomen">Recomendaciones</a>
+                        </li>
+                        <li>
+                            <a href="#appli">Baja nuestra app</a>
+                        </li>
+                    </ul>
                 </div>
                 <div>
-
-                </div>
-                <div>
-
+                    <h2>
+                        ¿Quieres saber más?
+                    </h2>
+                    <ul>
+                        <li>
+                            <a href="">Nuestro Instagram</a>
+                        </li>
+                        <li>
+                            <a href="">Nuestro blog</a>
+                        </li>
+                        <li>
+                            <a href="">Nuestros locales</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </footer>

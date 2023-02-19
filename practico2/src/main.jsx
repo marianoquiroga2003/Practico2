@@ -11,6 +11,8 @@ import { Section4 } from './componets/section4/Section4'
 import { Section5 } from './componets/section5/Section5'
 import { Footer } from './componets/footer/Footer'
 
+
+
 ReactDOM.createRoot(document.getElementById('root')).render(
   <React.StrictMode>
     <BarraMenu/>

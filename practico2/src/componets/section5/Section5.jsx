@@ -5,7 +5,7 @@ import googleplay from '../../assets/img/googleplay.png'
 
 const Section5 = () => {
     return(
-        <section className='seccion5'>
+        <section className='seccion5' id='appli'>
             <div className='divpadre5'>
                 <div className='subdiv6'>
                     <h1>

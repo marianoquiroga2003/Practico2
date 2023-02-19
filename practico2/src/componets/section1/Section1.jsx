@@ -4,15 +4,16 @@ import image1 from '../../assets/img/Sin título-1-01.png'
 import image2 from '../../assets/img/Sin título-1-02.png'
 import image3 from '../../assets/img/Sin título-1-03.png'
 import image4 from '../../assets/img/Sin título-1-04.png'
+import imgfondo from '../../assets/img/imgfondo1.png'
 
 
 const Section1 = () => {
     return(
-        <section>
+        <section id='servicios'>
             <div className='divpadre'>
-                <div className='subdiv2'>
+                <div className='subdiv2' >
                     <div className='imgdiv'>
-                        <img src={image1} alt="" />
+                        <img src={image1} alt=""/>
                     </div>
                     <div className='contex'>
                         <h2>
@@ -91,7 +92,7 @@ const Section1 = () => {
                     </div>
                 </div>
                 <div>
-
+                    <img className='imgfondo' src={imgfondo} alt="" />
                 </div>
             </div>
         </section>

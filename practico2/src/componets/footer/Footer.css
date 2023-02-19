@@ -1,0 +1,23 @@
+footer{
+    margin-top: 80px;
+    background-color: #8b9b42;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.divpadrefooter{
+    width: 80%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+}
+.divpadrefooter > div{
+    width: 20%;
+}
+.divpadrefooter > div > form > .enviarboton{
+    position: relative;
+    z-index: 1;
+    left: 390px;
+    top: 70px;
+}

@@ -26,6 +26,11 @@
     border-radius: 60px;
     position: relative;
     padding: 30px;
+    outline: none;
+    transition: .25s;
+}
+input:focus{
+    box-shadow: 3px 3px rgba(0,0,0,0.25);
 }
 .enviarboton{
     position: relative;
@@ -35,7 +40,6 @@
     background-color: transparent;
     color: #f4c651;
     transition: .25s;
-
 }
 .enviarboton:hover{
     box-shadow: none;

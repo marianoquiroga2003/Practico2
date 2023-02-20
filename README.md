@@ -19,5 +19,13 @@ Asimismo, mediante la utilización del *useState* y una función que se ejecuta 
 *El menú abierto*
 ![barra de menú cerrada](/practico2/src/assets/ReadmeImg/menu_cerrado.png)
 *El menú cerrado*
+
 En cuanto a diseño, todo recae en el uso de etiquetas y funcionalidades propias de programación en *css* y *html* (este último utilizado dentro del espacio de React), que fueron trabajados por secciones y, porteriormente, renderizados en el ***main.jsx***.
 ![los archivos utilizados junto al main.jsx](/practico2/src/assets/ReadmeImg/main.png)
+Las secciones en sí son reutilizables si así se requiere.
+La organización fue realizada en *css* con la utilización de *flexbox* 
+
+![barra de envío de correo electrónico](/practico2/src/assets/ReadmeImg/email.png)
+En el documento también se encuentran secciones destinadas a la comunicación con el usuario, donde podrá enviarte su corréo electrónico, el cual llegará a tu E-mail personal, al mismo tiempo que da una respuesta automática al usuario a su propia casilla de E-mail.
+Dicho sistema fue creado utilizando la tecnología de *emailjs*
+Exceptuando los botones para realizar compra y los links de las redes sociales, todos los botones y enlaces son completamente funcionales.

@@ -4,7 +4,7 @@ import Hombre from '../../assets/img/hombre.png'
 
 const Hero = () => {
     return(
-        <header>
+        <header id='hero'>
             <div className='div1'>
                 <div className='subdiv1'>
                     <h1>

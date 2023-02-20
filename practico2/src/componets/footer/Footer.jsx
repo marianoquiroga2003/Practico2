@@ -16,7 +16,7 @@ const Footer = () => {
         });
     };
     return(
-        <footer>
+        <footer id='footer'>
             <div className='divpadrefooter'>
                 <div className='divform'>
                     <p>Con gusto nos comunicaremos contigo, déjanos tu email y suscríbete a nuestro Newsletter</p>

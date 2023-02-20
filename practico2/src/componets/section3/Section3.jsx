@@ -1,5 +1,8 @@
 import React from 'react';
 import './Section3.css'
+import img1 from '../../assets/img/comida_1.jpg'
+import img2 from '../../assets/img/comida_2.png'
+import img3 from '../../assets/img/comida_3.png'
 
 const Section3 = () => {
     return(
@@ -17,7 +20,9 @@ const Section3 = () => {
                     </button>
                 </div>
                 <div className='recomenimg'>
-
+                    <img src={img1} alt="" />
+                    <img src={img2} alt="" />
+                    <img src={img3} alt="" />
                 </div>
             </div>
         </section>

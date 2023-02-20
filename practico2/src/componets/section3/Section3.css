@@ -7,6 +7,8 @@
 .seccion3 > div{
     width: 80%;
     margin-top: 80px;
+    display: flex;
+    justify-content: space-between;
 }
 .subdiv3{
     width: 30%;
@@ -23,14 +25,35 @@
     color: #ffffff;
     margin-top: 50px;
 }
+.recomenimg{
+    display: flex;
+    justify-content: space-between;
+    align-items: ;
+}
+.recomenimg > img{
+    margin: 20px;
+    width: 250px;
+    border-radius: 50px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.25);
+}
 
 @media (max-width: 576px){
     .seccion3{
-        height: 200vh;
+        height: 120vh;
+    }
+    .seccion3 > div{
+        flex-direction: column;
     }
     .recomenimg{
-        display: none;
+        margin-top: 50px;
+        justify-content: space-around;
     }
+    .recomenimg > img{
+        width: 125px;
+    }
+/*     .recomenimg{
+        display: none;
+    } */
     .seccion3 > div{
         width: 100%;
     }

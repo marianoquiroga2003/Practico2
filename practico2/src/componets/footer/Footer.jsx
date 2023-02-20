@@ -21,7 +21,7 @@ const Footer = () => {
                 <div className='divform'>
                     <p>Con gusto nos comunicaremos contigo, déjanos tu email y suscríbete a nuestro Newsletter</p>
                     <form ref={form} onSubmit={sendEmail} className='mail footermail' action="">
-                        <button type="submit" value="Send"><i className="bi bi-send-fill "></i></button>
+                        <button type="submit" value="Send"><i className="bi bi-send-fill"></i></button>
                         <input type="email" name='user_email' placeholder='Ingresa tu email...'/>
                     </form>
                 </div>

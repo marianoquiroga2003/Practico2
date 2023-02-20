@@ -49,6 +49,41 @@ input:focus{
 .enviarboton > i{
     font-size: 32px;
 }
-/* .enviarboton > i:hover{
-    text-shadow: 2px 2px rgba(0, 0, 0, 0.25);
-} */
+
+@media (max-width: 576px){
+    .divisor{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .divisor > div{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .seccion4{
+        height: 50vh;
+    }
+    .subdiv4{
+        width: 100%;
+    }
+    .subdiv4 > h1{
+        font-size: 32px;
+        margin: 20px;
+        text-align: center;
+    }
+    .divisor > div > form{
+        width: 100%;
+        margin: 0;
+    }
+    .inputemail{
+        margin-left: 10px;
+    }
+    .enviarboton{
+        position: relative;
+        top: 95px;
+        left: 370px;
+        z-index: 1;
+    }
+}

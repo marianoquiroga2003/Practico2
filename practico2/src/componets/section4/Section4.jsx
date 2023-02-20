@@ -27,7 +27,7 @@ const Section4 = () => {
                 <div>
                     <form ref={form} onSubmit={sendEmail} className='mail' action="">
                         <button type="submit" value="Send" className='enviarboton'><i class="bi bi-send-fill"></i></button>
-                        <input type="email" name='user_email' placeholder='Ingresa tu email...'/>
+                        <input className='inputemail' type="email" name='user_email' placeholder='Ingresa tu email...'/>
                     </form>
                 </div>
             </div>

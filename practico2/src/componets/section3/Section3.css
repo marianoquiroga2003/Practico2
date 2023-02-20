@@ -23,3 +23,37 @@
     color: #ffffff;
     margin-top: 50px;
 }
+
+@media (max-width: 576px){
+    .seccion3{
+        height: 200vh;
+    }
+    .recomenimg{
+        display: none;
+    }
+    .seccion3 > div{
+        width: 100%;
+    }
+    .subdiv3{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .subdiv3 > h1{
+        text-align: center;
+    }
+    .subdiv3 > p{
+        text-align: center;
+        margin: 30px 30px 50px 30px;
+    }
+    .subdiv3 > button{
+        width: 80%;
+        margin: 0;
+        transition: .25s;
+    }
+    .botondesc:hover{
+        box-shadow: rgba(0, 0, 0, 0.25);
+    }
+}

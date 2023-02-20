@@ -10,13 +10,13 @@ const Section3 = () => {
                         ¡Abiertos hoy!
                     </h1>
                     <p>
-                        Ten algunas recomendaciones para el día de hoy. Nuestros expertos gourmetes escogieron algunos de los mejores lugares que abren hoy.
+                        Ten algunas recomendaciones para el día de hoy. Nuestros expertos gourmets escogieron algunos de los mejores lugares que abren hoy.
                     </p>
-                    <button>
+                    <button className='botondesc'>
                         Descarga nuestra app
                     </button>
                 </div>
-                <div>
+                <div className='recomenimg'>
 
                 </div>
             </div>

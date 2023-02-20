@@ -1,6 +1,6 @@
 # Bussines site creado con Vite React
 Este trabajo fue realizado en el marco de un curso de desarrollo web FrontEnd que me encuentro cursando, siendo el último trabajo solicitado para la aprobación del módulo básico.
-*(Aquí irá el link al GitHub Pages si logro deployarlo, porque tuve muchos problemas con eso)*
+Link al GitHub Pages ==> ***https://marianoquiroga2003.github.io/Practico2/***
 
 #### ¿En qué consiste el trabajo?
 La tarea constaba de replicar lo más fidedignamente posible un ejemplo de página web seleccionado de entre los portfolios disponibles en Behance. 

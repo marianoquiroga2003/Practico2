@@ -30,7 +30,7 @@ const BarraMenu = () => {
                     <a className='item3' href="#servicios">¿Quienes somos?</a>
                     <a className='item3' href="#footer">Contacto</a>
                     <div className='oscuro'>
-                        <p>o</p>
+                        <p>ola</p>
                     </div>
                 </nav>
             </div>

@@ -138,3 +138,56 @@ button > a > img:hover{
 .apagado{
     display: none;
 }
+
+@media (max-width: 576px){
+    .seccion5{
+        height: 350vh;
+        margin: 0;
+    }
+    .divpadre5{
+        padding: 0;
+        margin: 0;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+    .subdiv6{
+        width: 100%;
+        margin: 0;
+    }
+    .subdiv6 > h1, .subdiv6 > p{
+        width: 100%;
+        margin: 20px;
+        text-align: center;
+    }
+    .subdiv6 > h1{
+        font-size: 32px;
+    }
+    .subdiv6 > p{
+        font-size: 28px;
+        margin-top: 30px;
+    }
+    .productdiv{
+        display: flex;
+        flex-direction: column;
+    }
+    .listaserv{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .divboton5{
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .divboton5 > button{
+        margin: 30px;
+        width: 80%;
+    }
+    button > img{
+        width: 100%;
+    }
+}

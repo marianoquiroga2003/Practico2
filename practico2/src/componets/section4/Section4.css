@@ -70,7 +70,7 @@ input:focus{
     }
     .subdiv4 > h1{
         font-size: 32px;
-        margin: 20px;
+        margin: 50px 20px 20px;
         text-align: center;
     }
     .divisor > div > form{

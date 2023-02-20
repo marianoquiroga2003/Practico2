@@ -10,7 +10,7 @@ const Section2 = () => {
                         312.144
                     </h2>
                     <p>
-                        Ordenes en el último año
+                        Órdenes en el último año
                     </p>
                 </div>
                 <div className='contador'>
@@ -18,7 +18,7 @@ const Section2 = () => {
                         15.113
                     </h2>
                     <p>
-                        Ordenes en el último mes
+                        Órdenes en el último mes
                     </p>
                 </div>
                 <div className='contador'>
@@ -26,7 +26,7 @@ const Section2 = () => {
                         4.050
                     </h2>
                     <p>
-                        Ordenes en la última semana
+                        Órdenes en la última semana
                     </p>
                 </div>
                 <div className='contador'>

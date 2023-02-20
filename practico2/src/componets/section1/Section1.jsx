@@ -84,7 +84,7 @@ const Section1 = () => {
                         </ul>
                         <ul className='ciudad'>
                             <li>Delhi</li>
-                            <li>Sâo Paolo</li>
+                            <li>Sâo Paulo</li>
                             <li>París</li>
                             <li>Barcelona</li>
                             <li>Tokyo</li>

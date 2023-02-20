@@ -9,10 +9,10 @@ const Section5 = () => {
     }
     return(
         <section className='seccion5' id='appli'>
-            <div id='errorcompra' className='errorcompra apagado'>
+{/*            <div id='errorcompra' className='errorcompra apagado'>
                 <h1>Lamentablemente, nuestros servidores no están disponibles.</h1>
                 <p>Intenta de nuevo más tarde</p>
-            </div>
+    </div> */}
             <div className='divpadre5'>
                 <div className='subdiv6'>
                     <h1>

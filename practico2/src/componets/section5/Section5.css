@@ -141,6 +141,7 @@ button > a > img:hover{
 
 @media (max-width: 576px){
     .seccion5{
+        width: 100%;
         height: 350vh;
         margin: 0;
     }
@@ -155,16 +156,15 @@ button > a > img:hover{
         width: 100%;
         margin: 0;
     }
-    .subdiv6 > h1, .subdiv6 > p{
-        width: 100%;
-        margin: 20px;
-        text-align: center;
-    }
     .subdiv6 > h1{
         font-size: 32px;
+        text-align: center;
+        margin-top: 50px;
     }
     .subdiv6 > p{
-        font-size: 28px;
+        text-align: center;
+        width: 100%;
+        font-size: 24px;
         margin-top: 30px;
     }
     .productdiv{

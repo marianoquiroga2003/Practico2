@@ -50,6 +50,7 @@ input:focus{
     font-size: 32px;
 }
 
+
 @media (max-width: 576px){
     .divisor{
         width: 100%;

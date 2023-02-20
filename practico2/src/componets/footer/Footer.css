@@ -37,6 +37,26 @@ footer{
     font-size: 24px;
 }
 
+    
+@media (min-width: 576px){
+    .footermail > button{
+        position: relative;
+        z-index: 1;
+        left: 350px;
+        top: 100px;
+        background-color: transparent;
+        color: #f4c651;
+        transition: .25s;
+    }
+    .footermail > button > i {
+        font-size: 32px
+    }
+    .footermail > button:hover{
+        box-shadow: none;
+        transform: rotate(45deg);
+    }
+}
+
 @media (max-width: 576px){
     footer{
         height: 100vh;

@@ -25,8 +25,8 @@ const Hero = () => {
                         </li>
                     </ul>
                 </div>
-                <div className='subdiv1'>
-                    <img src={Hombre} alt="" />
+                <div className='subdiv1 subimg'>
+                    <img src={Hombre} alt="Hombre caminando con canasta de fruta" />
                 </div>
             </div>
         </header>

@@ -3,9 +3,7 @@ import './Menu.css'
 
 const BarraMenu = () => {
 
-    const abrirMenu = () => {
-        menuha.classList.toogle('cerrado')
-    }
+    const [isOpen, setIsOpen] = useState(false)
 
     return(
         <div className='menu'>
@@ -23,15 +21,17 @@ const BarraMenu = () => {
             </nav>
             <div className='hambur'>
                 <div className='menuhambur'>
-                    <span id='menuha' onClick={abrirMenu} className='material-symbols-outlined menuha'>menu</span>
-                    <span id='menuha' className='material-symbols-outlined menuha cerrado'>close</span>
+                    <span onClick={ () => setIsOpen(!isOpen)} className={`material-symbols-outlined menuha ${isOpen && "open"}`}>menu</span>
+                    <span onClick={ () => setIsOpen(!isOpen)} className={`material-symbols-outlined menuhac ${isOpen && "open"}`}>close</span>
                     <button className='item'><span class="material-symbols-outlined download">download</span></button>
                 </div>
-                <nav className='nav3 cerrado'>
-                    <a className='item' href="">Inicio</a>
-                    <a className='item' href="">¿Quienes somos?</a>
-                    <a className='item' href="">Contacto</a>
-                    <div className='oscuro'>a</div>
+                <nav className={`nav3 ${isOpen && "open"}`}>
+                    <a className='item3' href="">Inicio</a>
+                    <a className='item3' href="">¿Quienes somos?</a>
+                    <a className='item3' href="">Contacto</a>
+                    <div className='oscuro'>
+                        <p>o</p>
+                    </div>
                 </nav>
             </div>
         </div>

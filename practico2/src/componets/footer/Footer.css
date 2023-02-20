@@ -18,8 +18,8 @@ footer{
 .divpadrefooter > div > form > .enviarboton{
     position: relative;
     z-index: 1;
-    left: 390px;
-    top: 70px;
+    left: 370px;
+    top: 100px;
 }
 .divpadrefooter > div > h2, .divpadrefooter > div > ul > li > a{
     color: #ffffff;

@@ -40,3 +40,26 @@ li{
     width: 70%;
     margin-left: 50%;
 }
+
+@media (max-width: 576px){
+    .subimg{
+        display: none;
+    }
+    .subdiv1{
+        width: 100%;
+    }
+    .subdiv1 > h1{
+        font-size: 50px;
+        border-bottom: solid 2px #ffffff;
+    }
+    .subdiv1 > p{
+        font-size: 28px;
+    }
+    .subdiv1 > ul{
+        margin-top: 30px;
+    }
+    .subdiv1 > ul > li{
+        margin-left: 30px;
+        font-size: 24px;
+    }
+}

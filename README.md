@@ -17,7 +17,7 @@ El sitio es completamente *responsive*, estando programado para adaptarse a pant
 Asimismo, mediante la utilización del *useState* y una función que se ejecuta *onClick* el menú, que también es responsive, se despliega en cuanto es solicitado
 ![barra de menú abierta](/practico2/src/assets/ReadmeImg/menu_abierto.png)
 *El menú abierto*
-![barra de menú cerrada](/practico2/src/assets/ReadmeImg/menu_cerrado.pngg)
+![barra de menú cerrada](/practico2/src/assets/ReadmeImg/menu_cerrado.png)
 *El menú cerrado*
 En cuanto a diseño, todo recae en el uso de etiquetas y funcionalidades propias de programación en *css* y *html* (este último utilizado dentro del espacio de React), que fueron trabajados por secciones y, porteriormente, renderizados en el ***main.jsx***.
 ![los archivos utilizados junto al main.jsx](/practico2/src/assets/ReadmeImg/main.png)

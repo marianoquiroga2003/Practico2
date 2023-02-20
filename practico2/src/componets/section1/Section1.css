@@ -63,3 +63,34 @@ div > img{
     z-index: -1;
     right: 200px;
 }
+
+@media(max-width: 576px){
+    .seccion1{
+        height: 200vh;
+    }
+    .divpadre{
+        display: flex;
+        flex-wrap: wrap;
+        border-bottom: solid 2px #707070;
+    }
+    .subdiv2{
+        flex: 1 0 100%;
+        margin: 30px 0 30px;
+    }
+    .divimg2{
+        display: none;
+    }
+    .datos{
+        width: 100%;   
+    }
+    .textgrand{
+        flex: 1 0 100%;
+    }
+    .datos > h2{
+        font-size: 45px;
+        text-align: center;
+    }
+    .datos > p{
+        text-align: center;
+    }
+}

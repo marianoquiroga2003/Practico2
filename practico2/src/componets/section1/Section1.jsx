@@ -9,7 +9,7 @@ import imgfondo from '../../assets/img/imgfondo1.png'
 
 const Section1 = () => {
     return(
-        <section id='servicios'>
+        <section id='servicios' className='seccion1'>
             <div className='divpadre'>
                 <div className='subdiv2' >
                     <div className='imgdiv'>
@@ -91,7 +91,7 @@ const Section1 = () => {
                         </ul>
                     </div>
                 </div>
-                <div>
+                <div className='divimg2'>
                     <img className='imgfondo' src={imgfondo} alt="" />
                 </div>
             </div>

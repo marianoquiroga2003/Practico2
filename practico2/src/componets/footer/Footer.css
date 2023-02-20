@@ -36,3 +36,70 @@ footer{
 .divpadrefooter > div > p{
     font-size: 24px;
 }
+
+@media (max-width: 576px){
+    footer{
+        height: 100vh;
+    }
+    .divpadrefooter{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .divpadrefooter > div{
+        width: 100%;
+    }
+    .divpadrefooter > div > h2, .divpadrefooter > div > ul{
+        text-align: center;
+        margin: 30px;
+    }
+    .divpadrefooter > div > form{
+        margin: 0;
+    }
+    .divpadrefooter > div > form{
+        margin: 0;
+        padding: 0;
+    }
+    .divform{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .divform > form{
+        display: flex;
+        width: 100%;
+        align-items: center;
+        justify-content: center;
+    }
+    .divform > form > input{
+        width: 100%;
+        border-radius: 100px;
+        margin: 10px;
+    }
+    .footermail{
+        position: relative;
+    }
+    .footermail > button{
+        position: absolute;
+        right: 5px;
+        top: -5px;
+        z-index: 1;
+        background-color: transparent;
+        transition: .25s;
+        color: #f4c651;
+    }
+    .footermail > button > i{
+        font-size: 30px;
+    }
+    .footermail > button:hover{
+        box-shadow: none;
+        transform: rotate(45deg);
+    }
+    .divform > p{
+        text-align: center;
+        width: 100%;
+    }
+}
